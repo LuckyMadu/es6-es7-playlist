@@ -1,9 +1,8 @@
-const personalInfo = {
-  firstname: "Lahiru",
-  lastname: "Amarathunga",
-  city: "Horana"
-};
+//const names = ["Kamal", "Nimal", "Nayana"];
+let [firstName, middleName, lastName] = ["Kamal", "Nimal", "Nayana"];
 
-const { firstname: fn, lastname: ln } = personalInfo;
+console.log(firstName + middleName + lastName);
 
-console.log(`${fn} ${ln}`);
+lastName = "Sunil";
+
+console.log(lastName);
