@@ -1,4 +1,5 @@
 function add(...nums) {
+  //console.log(arguments);
   console.log(nums);
 }
 
