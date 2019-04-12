@@ -1,24 +1,19 @@
-/* let incomes = [10, 20, 30];
-let total = 0;
+/* let example1 = [1, 2, 3, 4, 5];
+let example2 = [...example1];
 
-for (const income of incomes) {
-  total += income;
-}
+console.log(example2);
 
-console.log(total); 
+example2.push(6);
 
-let fullName = "Lahiru";
+console.log(example2); */
 
-for (const char of fullName) {
-  console.log(char);
-}
-*/
+let example1 = {
+  firstName: "Lahiru"
+};
 
-//not update the values
-let incomes = [10, 20, 30];
+let example2 = {
+  ...example1,
+  lastName: "Amarathunga"
+};
 
-for (let income of incomes) {
-  income += 50;
-}
-
-console.log(incomes);
+console.log(example2.firstName);
