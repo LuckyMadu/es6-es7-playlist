@@ -1,8 +1,10 @@
-//const names = ["Kamal", "Nimal", "Nayana"];
-let [firstName, middleName, lastName] = ["Kamal", "Nimal", "Nayana"];
+function addressMaker(state, city) {
+  //const newAddress = { newState: state, newCity: city };
 
-console.log(firstName + middleName + lastName);
+  //No need to assign to another variable
+  const newAddress = { state, city };
 
-lastName = "Sunil";
+  console.log(newAddress);
+}
 
-console.log(lastName);
+addressMaker("Western", "Horana");
