@@ -1,6 +1,12 @@
 function add(...nums) {
-  //console.log(arguments);
-  console.log(nums);
+  /* let total = nums.reduce(function(x, y) {
+    return x + y;
+  }); */
+
+  //same code with more simply
+  let total = nums.reduce((x, y) => x + y);
+
+  console.log(total);
 }
 
 add(1, 2, 3, 4, 5);
