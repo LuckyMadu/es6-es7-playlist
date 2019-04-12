@@ -1,13 +1,14 @@
-function addressMaker(address) {
-  const { city, state } = address;
+/* let incomes = [10, 20, 30];
+let total = 0;
 
-  const newAddress = {
-    city,
-    state,
-    country: "SriLanka"
-  };
-
-  console.log(`${newAddress.city} ${newAddress.state} ${newAddress.country}`);
+for (const income of incomes) {
+  total += income;
 }
 
-addressMaker({ city: "Horana", state: "Western" });
+console.log(total); */
+
+let fullName = "Lahiru";
+
+for (const char of fullName) {
+  console.log(char);
+}
