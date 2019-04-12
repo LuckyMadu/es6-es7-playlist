@@ -1,10 +1,13 @@
-function addressMaker(state, city) {
-  //const newAddress = { newState: state, newCity: city };
+function addressMaker(address) {
+  const { city, state } = address;
 
-  //No need to assign to another variable
-  const newAddress = { state, city };
+  const newAddress = {
+    city,
+    state,
+    country: "SriLanka"
+  };
 
-  console.log(newAddress);
+  console.log(`${newAddress.city} ${newAddress.state} ${newAddress.country}`);
 }
 
-addressMaker("Western", "Horana");
+addressMaker({ city: "Horana", state: "Western" });
