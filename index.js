@@ -1,10 +1,6 @@
-function add(newArray = []) {
-  let total = 0;
+let numArray = [1, 2, 3, 4, 5];
 
-  newArray.forEach(element => {
-    total += element;
-  });
-  console.log(total);
-}
+//console.log(numArray.indexOf(5));
 
-add();
+//Boolean Value return
+console.log(numArray.includes(4));
