@@ -1,6 +1,11 @@
-let numArray = [1, 2, 3, 4, 5];
+/* let example = 10;
+example = 5;
+console.log(example); */
 
-//console.log(numArray.indexOf(5));
+const example = [];
+example.push(5);
+console.log(example);
 
-//Boolean Value return
-console.log(numArray.includes(4));
+const example2 = {};
+example2.firstName = "Lahiru";
+console.log(example2);
