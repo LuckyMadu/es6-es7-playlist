@@ -1,11 +1,9 @@
-/* let example = 10;
-example = 5;
-console.log(example); */
+let example = "Lahiru";
 
-const example = [];
-example.push(5);
-console.log(example);
+//console.log(example.padStart(10, "A"));
+//console.log(example.padEnd(10, "a"));
 
-const example2 = {};
-example2.firstName = "Lahiru";
-console.log(example2);
+let example2 = "https://www.youtube.com/watch?v=rwTBwDyUBSA";
+
+console.log(example2.padStart(50));
+console.log(example2.padEnd(40));
